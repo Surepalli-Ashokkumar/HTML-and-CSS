@@ -1,0 +1,55 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: changecolor;
+    animation-duration: 5s;
+}
+@keyframes changecolor{
+    from{background-color: red;}
+    to{background-color: yellow;}
+
+    
+}
+@keyframes changecolor1{
+    0%{background-color: blue;}
+    25%{background-color: red;}
+    50%{background-color: yellow;}
+    75%{background-color: brown;}
+    100%{background-color: chartreuse;}
+    
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+    animation: scaleChangeColor 4s linear infinite;
+}
+@keyframes scaleChangeColor {
+    0%{
+        transform: scale(1);
+        background-color: cyan;
+    }
+    25%{
+        transform: scale(1.2);
+        background-color: orange;
+    }
+    50%{
+        transform: scale(1);
+        background-color: red;
+    }
+    75%{
+        transform: scale();
+        background-color: yellow;
+    }
+    100%{
+        transform: scale();
+        background-color: brown;
+    }
+}
+.navbar{
+    background-color:navy;
+    text-align: center;
+}

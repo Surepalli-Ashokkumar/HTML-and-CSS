@@ -1,0 +1,29 @@
+.header{
+    background-color: navy;
+    text-align: center;
+    height: 70px;
+}
+.middle{
+    display: inline-flex;
+    align-items: center;
+    
+}
+.left{
+    background-color: orange;
+    width: 530px;
+    height:500px;
+    text-align: center;
+}
+.mid{
+    background-color: green;
+    width: 530px;
+    height: 500px;
+    text-align: center;
+    
+}
+.right{
+    background-color: yellow;
+    width: 530px;
+    height: 500px;
+    text-align: center;
+}
